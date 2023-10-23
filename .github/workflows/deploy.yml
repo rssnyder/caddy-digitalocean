@@ -11,5 +11,4 @@ permissions:
 
 jobs:
   docker:
-    needs: go
     uses: rssnyder/actions/.github/workflows/docker-build-and-push.yml@main
